@@ -1,0 +1,7 @@
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoCommon/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoCommon/bin/Debug/DemoCommon.dll.mdb
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoCommon/bin/Debug/DemoCommon.dll
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoCommon/obj/Debug/DemoCommon.dll
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoCommon/obj/Debug/DemoCommon.dll.mdb
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoCommon/bin/Debug/DemoModels.dll
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoCommon/bin/Debug/DemoModels.dll.mdb

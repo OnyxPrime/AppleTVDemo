@@ -7,3 +7,16 @@
 /Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe
 /Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe
 /Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe.mdb
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/Xamarin.TVOS,Version=v1.0.AssemblyAttribute.cs
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/optimized/
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe.mdb
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe.mdb
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/DemoCommon.dll
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/DemoCommon.dll.mdb
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/DemoDataAccessLayer.dll
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/DemoDataAccessLayer.dll.mdb
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/DemoModels.dll
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/DemoModels.dll.mdb

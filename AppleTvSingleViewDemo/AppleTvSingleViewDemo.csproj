@@ -127,9 +127,28 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="MonkeesViewController.cs" />
+    <Compile Include="MonkeesViewController.designer.cs">
+      <DependentUpon>MonkeesViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleLocator.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DemoCommon\DemoCommon.csproj">
+      <Project>{99798D07-353B-44BC-BB24-D3AB2A989A4E}</Project>
+      <Name>DemoCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DemoDataAccessLayer\DemoDataAccessLayer.csproj">
+      <Project>{90C0AB11-87AF-4165-BC0E-37E7F8D75BE7}</Project>
+      <Name>DemoDataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DemoModels\DemoModels.csproj">
+      <Project>{A825035B-B97E-4CAE-9B34-A1A93692E338}</Project>
+      <Name>DemoModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\TVOS\Xamarin.TVOS.CSharp.targets" />
 </Project>
