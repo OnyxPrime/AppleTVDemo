@@ -1,0 +1,9 @@
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/Xamarin.TVOS,Version=v1.0.AssemblyAttribute.cs
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/optimized/
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe.mdb
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/AppleTvSingleViewDemo.exe.mdb

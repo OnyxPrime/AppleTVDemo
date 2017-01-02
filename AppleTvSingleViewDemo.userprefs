@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{93A3CC4B-FFAC-42CD-975F-D6CF505DD7AD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppleTvSingleViewDemo/AppDelegate.cs">
+    <Files>
+      <File FileName="AppleTvSingleViewDemo/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="AppleTvSingleViewDemo/ViewController.cs" Line="27" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AppleTvSingleViewDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.835EA1C8-D9A2-49A5-A6DC-6FBCF277146E" />
+</Properties>

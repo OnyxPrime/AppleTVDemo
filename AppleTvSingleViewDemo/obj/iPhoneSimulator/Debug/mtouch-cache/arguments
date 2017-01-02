@@ -1,0 +1,37 @@
+# Version: 10.3.1.7 (cycle8-xi: 8b53676)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.3.1.7/lib/mtouch/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.3.1.7/lib/mtouch/mtouch.exe \
+	--cache \
+	/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/AppleTvSingleViewDemo.app \
+	--executable \
+	AppleTvSingleViewDemo \
+	--fastdev \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	10.1 \
+	--targetver \
+	10.1 \
+	--http-message-handler=HttpClientHandler \
+	--tls-provider=default \
+	--abi=x86_64 \
+	--symbollist \
+	/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.TVOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.TVOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.TVOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.TVOS/Xamarin.TVOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.TVOS/mscorlib.dll \
+	--target-framework \
+	"Xamarin.TVOS,v1.0" \
+	/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug//AppleTvSingleViewDemo.exe \
