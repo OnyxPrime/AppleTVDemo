@@ -16,13 +16,17 @@ namespace AppleTvSingleViewDemo
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UINavigationBar MonkeeNavBar { get; set; }
+        UIKit.UIButton ClickMe { get; set; }
+
+        [Action ("GoMonkee:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void GoMonkee (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
-            if (MonkeeNavBar != null) {
-                MonkeeNavBar.Dispose ();
-                MonkeeNavBar = null;
+            if (ClickMe != null) {
+                ClickMe.Dispose ();
+                ClickMe = null;
             }
         }
     }

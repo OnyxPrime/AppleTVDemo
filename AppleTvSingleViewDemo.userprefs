@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{93A3CC4B-FFAC-42CD-975F-D6CF505DD7AD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AppleTvSingleViewDemo/MonkeeViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppleTvSingleViewDemo/MonkeesViewController.cs">
     <Files>
-      <File FileName="AppleTvSingleViewDemo/MonkessTabViewController.cs" Line="35" Column="23" />
-      <File FileName="AppleTvSingleViewDemo/MonkeeViewController.cs" Line="38" Column="35" />
-      <File FileName="AppleTvSingleViewDemo/AppDelegate.cs" Line="25" Column="24" />
+      <File FileName="AppleTvSingleViewDemo/MonkessTabViewController.cs" Line="20" Column="10" />
+      <File FileName="AppleTvSingleViewDemo/AppDelegate.cs" Line="25" Column="49" />
+      <File FileName="AppleTvSingleViewDemo/MonkeesViewController.cs" Line="35" Column="5" />
+      <File FileName="AppleTvSingleViewDemo/MonkeeViewController.cs" Line="39" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

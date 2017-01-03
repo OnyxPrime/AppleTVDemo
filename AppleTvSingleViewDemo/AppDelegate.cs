@@ -21,11 +21,11 @@ namespace AppleTvSingleViewDemo
 			// Override point for customization after application launch.
 			// If not required for your application you can safely delete this method
 
-			Window = new UIWindow(UIScreen.MainScreen.Bounds);
-			var tabController = new MonkessTabViewController();
-			Window.RootViewController = tabController;
+			//Window = new UIWindow(UIScreen.MainScreen.Bounds);
+			//var tabController = new MonkessTabViewController();
+			//Window.RootViewController = tabController;
 
-			Window.MakeKeyAndVisible();
+			//Window.MakeKeyAndVisible();
 
 			return true;
 		}

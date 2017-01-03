@@ -10,17 +10,28 @@ namespace AppleTvSingleViewDemo
 {
     public partial class MonkeesViewController : UIViewController
     {
-		private IDataAccess dataAccess;
+		//private IDataAccess dataAccess;
+		UIViewController monkeeVC;
         public MonkeesViewController (IntPtr handle) : base (handle)
         {
-			dataAccess = SimpleLocator.Locator.MonkeeDataAccess;
+			//dataAccess = SimpleLocator.Locator.MonkeeDataAccess;
         }
+
+		public void Initialize()
+		{
+			monkeeVC = new MonkessTabViewController();
+		}
+
+		public override void AwakeFromNib()
+		{
+			this.Initialize();
+			base.AwakeFromNib();
+		}
 
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
 			// Perform any additional setup after loading the view, typically from a nib.  
-			AddMonkeesToNavBar();
 		}
 
 		public override void DidReceiveMemoryWarning()
@@ -29,24 +40,9 @@ namespace AppleTvSingleViewDemo
 			// Release any cached data, images, etc that aren't in use.
 		}
 
-		private async Task AddMonkeesToNavBar()
+		partial void GoMonkee(UIButton sender)
 		{
-			var items = await dataAccess.GetMonkees();
-			var navItems = new List<UINavigationItem>();
-			var barButtonItems = new List<UIBarButtonItem>();
-			foreach (var item in items)
-			{
-				barButtonItems.Add(new UIBarButtonItem()
-				{
-					Title = item.Name,
-					Enabled = true
-				});
-			}
-			var navItem = new UINavigationItem();
-			navItem.SetLeftBarButtonItems(barButtonItems.ToArray(), true);
-			navItems.Add(navItem);
-			MonkeeNavBar.SetItems(navItems.ToArray(), true);
+			this.NavigationController.PushViewController(monkeeVC, true);
 		}
-
 	}
 }
