@@ -91,6 +91,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.TVOS" />
+    <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Contents.json" />
@@ -132,6 +133,14 @@
       <DependentUpon>MonkeesViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="SimpleLocator.cs" />
+    <Compile Include="MonkessTabViewController.cs" />
+    <Compile Include="MonkessTabViewController.designer.cs">
+      <DependentUpon>MonkessTabViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonkeeViewController.cs" />
+    <Compile Include="MonkeeViewController.designer.cs">
+      <DependentUpon>MonkeeViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />

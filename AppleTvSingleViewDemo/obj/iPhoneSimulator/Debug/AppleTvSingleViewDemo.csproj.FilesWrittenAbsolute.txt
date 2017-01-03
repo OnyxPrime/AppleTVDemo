@@ -20,3 +20,5 @@
 /Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/DemoDataAccessLayer.dll.mdb
 /Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/DemoModels.dll
 /Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/bin/iPhoneSimulator/Debug/DemoModels.dll.mdb
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/AppleTvSingleViewDemo/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items

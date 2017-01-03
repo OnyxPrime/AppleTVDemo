@@ -31,6 +31,8 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.TVOS/Xamarin.TVOS.dll \
 	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.TVOS/System.Net.Http.dll \
+	-r \
 	/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoCommon/bin/Debug/DemoCommon.dll \
 	-r \
 	/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoDataAccessLayer/bin/Debug/DemoDataAccessLayer.dll \

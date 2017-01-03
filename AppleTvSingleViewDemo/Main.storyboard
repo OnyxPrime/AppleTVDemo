@@ -92,5 +92,50 @@
             </objects>
             <point key="canvasLocation" x="14" y="-1188"/>
         </scene>
+        <scene sceneID="89">
+            <objects>
+                <viewController id="90" sceneMemberID="viewController" customClass="MonkeeViewController" storyboardIdentifier="MonkeeMain">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="87"/>
+                        <viewControllerLayoutGuide type="bottom" id="88"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="91">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="94" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="368" y="361" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="102" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="840" y="272" width="240" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="144" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="14">
+                                <rect key="frame" x="1088" y="361" width="500" height="379"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="96" firstItem="94" firstAttribute="top" secondItem="87" secondAttribute="bottom" constant="365"/>
+                            <constraint id="103" firstItem="102" firstAttribute="centerX" secondItem="91" secondAttribute="centerX"/>
+                            <constraint id="104" firstItem="102" firstAttribute="top" secondItem="87" secondAttribute="bottom" constant="272"/>
+                            <constraint id="143" firstItem="91" firstAttribute="centerX" secondItem="94" secondAttribute="centerX" constant="472"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="MonkeeImage" destination="94" id="name-outlet-94"/>
+                        <outlet property="MyLabel" destination="102" id="name-outlet-102"/>
+                        <outlet property="MonkeeDescription" destination="144" id="name-outlet-144"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="92" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31" y="-2354"/>
+        </scene>
     </scenes>
 </document>
