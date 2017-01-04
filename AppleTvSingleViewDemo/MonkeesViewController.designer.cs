@@ -18,6 +18,10 @@ namespace AppleTvSingleViewDemo
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton ClickMe { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel LabelDescription { get; set; }
+
         [Action ("GoMonkee:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void GoMonkee (UIKit.UIButton sender);
@@ -27,6 +31,11 @@ namespace AppleTvSingleViewDemo
             if (ClickMe != null) {
                 ClickMe.Dispose ();
                 ClickMe = null;
+            }
+
+            if (LabelDescription != null) {
+                LabelDescription.Dispose ();
+                LabelDescription = null;
             }
         }
     }

@@ -37,6 +37,7 @@ namespace AppleTvSingleViewDemo
 				return;
 			MyLabel.Text = MonkeeData.Name;
 			MonkeeDescription.Text = MonkeeData.Description;
+			MonkeeDescription.SizeToFit();
 			MonkeeImage.Image = await LoadImage(MonkeeData.ImageUrl);;
 		}
 

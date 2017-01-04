@@ -31,6 +31,7 @@ namespace AppleTvSingleViewDemo
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
+			LabelDescription.SizeToFit();
 			// Perform any additional setup after loading the view, typically from a nib.  
 		}
 

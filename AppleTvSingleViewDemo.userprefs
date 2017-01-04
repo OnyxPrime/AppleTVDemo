@@ -1,11 +1,24 @@
 ﻿<Properties StartupConfiguration="{93A3CC4B-FFAC-42CD-975F-D6CF505DD7AD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AppleTvSingleViewDemo/MonkeesViewController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="AppleTvSingleViewDemo/MonkessTabViewController.cs" Line="20" Column="10" />
       <File FileName="AppleTvSingleViewDemo/AppDelegate.cs" Line="25" Column="49" />
-      <File FileName="AppleTvSingleViewDemo/MonkeesViewController.cs" Line="35" Column="5" />
-      <File FileName="AppleTvSingleViewDemo/MonkeeViewController.cs" Line="39" Column="26" />
+      <File FileName="AppleTvSingleViewDemo/MonkeesViewController.cs" Line="34" Column="33" />
+      <File FileName="AppleTvSingleViewDemo/MonkeeViewController.cs" Line="40" Column="34" />
+      <File FileName="AppleTvSingleViewDemo/Main.cs" Line="12" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AppleTvSingleViewDemo" expanded="True">
+            <Node name="AppleTvSingleViewDemo" expanded="True">
+              <Node name="Packages" selected="True" />
+            </Node>
+            <Node name="DemoDataAccessLayer" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
