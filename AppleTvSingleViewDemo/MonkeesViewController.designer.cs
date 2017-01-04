@@ -20,6 +20,10 @@ namespace AppleTvSingleViewDemo
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView ImageMain { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel LabelDescription { get; set; }
 
         [Action ("GoMonkee:")]
@@ -31,6 +35,11 @@ namespace AppleTvSingleViewDemo
             if (ClickMe != null) {
                 ClickMe.Dispose ();
                 ClickMe = null;
+            }
+
+            if (ImageMain != null) {
+                ImageMain.Dispose ();
+                ImageMain = null;
             }
 
             if (LabelDescription != null) {

@@ -31,8 +31,8 @@ namespace AppleTvSingleViewDemo
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
-			LabelDescription.SizeToFit();
-			// Perform any additional setup after loading the view, typically from a nib.  
+			//// Perform any additional setup after loading the view, typically from a nib.  
+			SetupMain();
 		}
 
 		public override void DidReceiveMemoryWarning()
@@ -44,6 +44,18 @@ namespace AppleTvSingleViewDemo
 		partial void GoMonkee(UIButton sender)
 		{
 			this.NavigationController.PushViewController(monkeeVC, true);
+		}
+
+		private async Task SetupMain()
+		{
+			LabelDescription.SizeToFit();
+			try
+			{
+				ImageMain.Image = await UIImageHelper.LoadImageAsync("https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Monkees.jpg");
+			}
+			catch (Exception e)
+			{
+			}
 		}
 	}
 }

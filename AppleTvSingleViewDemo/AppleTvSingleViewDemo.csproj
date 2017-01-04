@@ -141,6 +141,7 @@
     <Compile Include="MonkeeViewController.designer.cs">
       <DependentUpon>MonkeeViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIImageHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />

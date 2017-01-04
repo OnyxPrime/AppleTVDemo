@@ -38,17 +38,7 @@ namespace AppleTvSingleViewDemo
 			MyLabel.Text = MonkeeData.Name;
 			MonkeeDescription.Text = MonkeeData.Description;
 			MonkeeDescription.SizeToFit();
-			MonkeeImage.Image = await LoadImage(MonkeeData.ImageUrl);;
-		}
-
-		private async Task<UIImage> LoadImage(string imageUrl)
-		{
-			var httpClient = new HttpClient();
-			var contentsTask = httpClient.GetByteArrayAsync(imageUrl);
-			var contents = await contentsTask;
-			var data = NSData.FromArray(contents);
-			var image = UIImage.LoadFromData(data);
-			return image;
+			MonkeeImage.Image = await UIImageHelper.LoadImageAsync(MonkeeData.ImageUrl);;
 		}
     }
 }
