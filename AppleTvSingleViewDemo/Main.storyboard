@@ -76,12 +76,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="217" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
-                                <rect key="frame" x="741" y="618" width="446" height="200"/>
+                                <rect key="frame" x="395" y="565" width="446" height="200"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="Click Me"/>
                                 <connections>
                                     <action selector="GoMonkee:" destination="50" id="274" eventType="primaryActionTriggered"/>
                                 </connections>
+                                <state key="normal" title="MEET THE BAND"/>
+                                <constraints>
+                                    <constraint id="353" firstItem="217" firstAttribute="width" constant="446"/>
+                                </constraints>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Monkees" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="227" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
                                 <rect key="frame" x="492" y="20" width="937" height="127"/>
@@ -101,17 +104,31 @@
                                 <nil key="highlightedColor"/>
                                 <string key="text">The Monkees are an American-British pop rock band originally active between 1965 and 1971, with subsequent reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider for the American television series The Monkees, which aired from 1966 to 1968.</string>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="344" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="1126" y="565" width="446" height="200"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="PLAY A MOVIE"/>
+                                <connections>
+                                    <action selector="GoMovie:" destination="50" id="345" eventType="primaryActionTriggered"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="352" firstItem="344" firstAttribute="width" constant="446"/>
+                                </constraints>
+                            </button>
                         </subviews>
                         <constraints>
-                            <constraint id="218" firstItem="217" firstAttribute="centerX" secondItem="51" secondAttribute="centerX"/>
                             <constraint id="228" firstItem="227" firstAttribute="centerX" secondItem="51" secondAttribute="centerX"/>
                             <constraint id="271" firstItem="217" firstAttribute="top" secondItem="227" secondAttribute="bottom" constant="471"/>
+                            <constraint id="335" firstItem="51" firstAttribute="centerX" secondItem="217" secondAttribute="centerX" constant="342"/>
+                            <constraint id="348" firstItem="344" firstAttribute="centerX" secondItem="51" secondAttribute="centerX" constant="394"/>
+                            <constraint id="349" firstItem="344" firstAttribute="top" secondItem="227" secondAttribute="bottom" constant="471"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="ClickMe" destination="217" id="name-outlet-217"/>
                         <outlet property="LabelDescription" destination="237" id="name-outlet-237"/>
                         <outlet property="ImageMain" destination="236" id="name-outlet-236"/>
+                        <outlet property="ClickMovie" destination="344" id="name-outlet-344"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="52" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -177,6 +194,13 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="162" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2151" y="-1203"/>
+        </scene>
+        <scene sceneID="281">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="282" sceneMemberID="viewController" title="Big Buck Bunny" customClass="StreamingDemo" storyboardIdentifier="StreamingTest"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="283" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2442" y="-2042"/>
         </scene>
     </scenes>
 </document>

@@ -1,24 +1,13 @@
 ﻿<Properties StartupConfiguration="{93A3CC4B-FFAC-42CD-975F-D6CF505DD7AD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AppleTvSingleViewDemo/UIImageExtension.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppleTvSingleViewDemo/StreamingDemo.cs">
     <Files>
-      <File FileName="AppleTvSingleViewDemo/MonkessTabViewController.cs" Line="20" Column="10" />
-      <File FileName="AppleTvSingleViewDemo/AppDelegate.cs" Line="25" Column="49" />
-      <File FileName="AppleTvSingleViewDemo/MonkeesViewController.cs" Line="37" Column="4" />
-      <File FileName="AppleTvSingleViewDemo/MonkeeViewController.cs" Line="40" Column="34" />
+      <File FileName="AppleTvSingleViewDemo/MonkeesViewController.cs" Line="46" Column="1" />
+      <File FileName="AppleTvSingleViewDemo/MonkeeViewController.cs" Line="41" Column="79" />
       <File FileName="AppleTvSingleViewDemo/Main.cs" Line="12" Column="1" />
-      <File FileName="AppleTvSingleViewDemo/UIImageExtension.cs" Line="4" Column="16" />
+      <File FileName="AppleTvSingleViewDemo/UIImageHelper.cs" Line="48" Column="1" />
+      <File FileName="AppleTvSingleViewDemo/MonkessTabViewController.cs" Line="1" Column="1" />
+      <File FileName="AppleTvSingleViewDemo/StreamingDemo.cs" Line="13" Column="12" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="AppleTvSingleViewDemo" expanded="True">
-            <Node name="AppleTvSingleViewDemo" expanded="True">
-              <Node name="UIImageExtension.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -5,21 +5,26 @@ using DemoCommon;
 using System.Threading.Tasks;
 using System.Linq;
 using System.Collections.Generic;
+using MediaPlayer;
+using CoreGraphics;
+using AVFoundation;
 
 namespace AppleTvSingleViewDemo
 {
     public partial class MonkeesViewController : UIViewController
     {
-		//private IDataAccess dataAccess;
+
 		UIViewController monkeeVC;
+		StreamingDemo streamingVC;
         public MonkeesViewController (IntPtr handle) : base (handle)
         {
-			//dataAccess = SimpleLocator.Locator.MonkeeDataAccess;
         }
 
 		public void Initialize()
 		{
 			monkeeVC = new MonkessTabViewController();
+			var storyboard = UIStoryboard.FromName("Main", null);
+			streamingVC = (StreamingDemo)storyboard.InstantiateViewController("StreamingTest");
 		}
 
 		public override void AwakeFromNib()
@@ -44,6 +49,12 @@ namespace AppleTvSingleViewDemo
 		partial void GoMonkee(UIButton sender)
 		{
 			this.NavigationController.PushViewController(monkeeVC, true);
+
+		}
+
+		partial void GoMovie(UIButton sender)
+		{
+			this.NavigationController.PushViewController(streamingVC, true);
 		}
 
 		private async Task SetupMain()

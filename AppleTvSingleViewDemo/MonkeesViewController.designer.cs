@@ -20,6 +20,10 @@ namespace AppleTvSingleViewDemo
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton ClickMovie { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView ImageMain { get; set; }
 
         [Outlet]
@@ -30,11 +34,20 @@ namespace AppleTvSingleViewDemo
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void GoMonkee (UIKit.UIButton sender);
 
+        [Action ("GoMovie:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void GoMovie (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
             if (ClickMe != null) {
                 ClickMe.Dispose ();
                 ClickMe = null;
+            }
+
+            if (ClickMovie != null) {
+                ClickMovie.Dispose ();
+                ClickMovie = null;
             }
 
             if (ImageMain != null) {

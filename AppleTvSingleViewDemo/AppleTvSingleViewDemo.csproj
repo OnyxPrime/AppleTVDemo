@@ -142,6 +142,10 @@
       <DependentUpon>MonkeeViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="UIImageHelper.cs" />
+    <Compile Include="StreamingDemo.cs" />
+    <Compile Include="StreamingDemo.designer.cs">
+      <DependentUpon>StreamingDemo.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
