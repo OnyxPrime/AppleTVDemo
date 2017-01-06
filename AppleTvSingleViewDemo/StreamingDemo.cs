@@ -27,11 +27,21 @@ namespace AppleTvSingleViewDemo
 
 		private void PlayMovie()
 		{
-			if (this.Player != null)
-				this.Player.Play();
-			else {
-				this.Player = new AVPlayer(new NSUrl("http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8"));
-				this.Player.Play();
+			try
+			{
+				ServicePointManager.ServerCertificateValidationCallback = UIImageHelper.MyRemoteCertificateValidationCallback;
+				if (this.Player != null)
+				{
+					if (this.Player.TimeControlStatus == AVPlayerTimeControlStatus.Paused)
+						this.Player.Play();
+				}
+				else {
+					this.Player = new AVPlayer(new NSUrl("http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8"));
+					this.Player.Play();
+				}
+			}
+			catch (Exception ex)
+			{
 			}
 		}
     }
