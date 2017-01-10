@@ -13,6 +13,12 @@ AppStuff.cs
 
 AppleTvSingleViewDemo/obj
 AppleTvSingleViewDemo/bin
+DemoCommon/obj
+DemoCommon/bin
+DemoDataAccessLayer/obj
+DemoDataAccessLayer/bin
+DemoModels/obj
+DemoModels/bin
 
 # Packages #
 ############

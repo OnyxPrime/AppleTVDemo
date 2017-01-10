@@ -1,6 +1,0 @@
-/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoModels/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
-/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoModels/bin/Debug/DemoModels.dll.mdb
-/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoModels/bin/Debug/DemoModels.dll
-/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoModels/obj/Debug/DemoModels.dll
-/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoModels/obj/Debug/DemoModels.dll.mdb
-/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoModels/bin/Debug/Newtonsoft.Json.dll
