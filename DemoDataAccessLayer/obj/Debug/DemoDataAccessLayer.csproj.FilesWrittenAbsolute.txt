@@ -7,3 +7,4 @@
 /Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoDataAccessLayer/bin/Debug/DemoCommon.dll.mdb
 /Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoDataAccessLayer/bin/Debug/DemoModels.dll
 /Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoDataAccessLayer/bin/Debug/DemoModels.dll.mdb
+/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoDataAccessLayer/bin/Debug/Newtonsoft.Json.dll

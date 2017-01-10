@@ -31,6 +31,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataAccess.cs" />
     <Compile Include="TestDataAccess.cs" />
+    <Compile Include="ImageDataAccess.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DemoCommon\DemoCommon.csproj">
@@ -41,6 +42,14 @@
       <Project>{A825035B-B97E-4CAE-9B34-A1A93692E338}</Project>
       <Name>DemoModels</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

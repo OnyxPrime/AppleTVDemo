@@ -19,6 +19,13 @@ namespace AppleTvSingleViewDemo
 			AddMonkeeTabs();
         }
 
+		public override void ViewDidLoad()
+		{
+			base.ViewDidLoad();
+			//TabBar.ItemSelected += MonkeeSelected;
+
+		}
+
 		private async Task AddMonkeeTabs()
 		{
 			var tabsList = new List<UIViewController>();
@@ -32,6 +39,7 @@ namespace AppleTvSingleViewDemo
 					var t2 = (MonkeeViewController)storyboard.InstantiateViewController("MonkeeMain");
 					t2.Title = item.Name;
 					t2.MonkeeData = item;
+					t2.ImageDataAccess = SimpleLocator.Locator.MonkeeImageDataAccess;
 					tabsList.Add(t2);
 				}
 				catch (Exception ex)
@@ -41,5 +49,10 @@ namespace AppleTvSingleViewDemo
 			tabs = tabsList.ToArray();
 			ViewControllers = tabsList.ToArray();
 		}
-    }
+
+		private void MonkeeSelected (object sender, UITabBarItemEventArgs e)
+		{
+
+		}
+	}
 }

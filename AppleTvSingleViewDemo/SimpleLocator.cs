@@ -28,5 +28,14 @@ namespace AppleTvSingleViewDemo
 				return monkeeDataAccess;
 			}
 		}
+
+		private IImageDataAccess monkeeImageDataAccess = new ImageDataAccess();
+		public IImageDataAccess MonkeeImageDataAccess
+		{
+			get
+			{
+				return monkeeImageDataAccess;
+			}
+		}
 	}
 }

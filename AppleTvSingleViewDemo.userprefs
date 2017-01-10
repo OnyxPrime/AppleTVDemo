@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{93A3CC4B-FFAC-42CD-975F-D6CF505DD7AD}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppleTvSingleViewDemo/MonkeeCollectionViewCell.cs">
     <Files>
-      <File FileName="AppleTvSingleViewDemo/MonkeesViewController.cs" Line="60" Column="27" />
-      <File FileName="AppleTvSingleViewDemo/MonkeeViewController.cs" Line="41" Column="79" />
-      <File FileName="AppleTvSingleViewDemo/StreamingDemo.cs" Line="39" Column="106" />
-      <File FileName="AppleTvSingleViewDemo/UIImageHelper.cs" Line="18" Column="100" />
+      <File FileName="AppleTvSingleViewDemo/MonkeeViewDatasource.cs" Line="6" Column="16" />
+      <File FileName="AppleTvSingleViewDemo/MonkeeCollectionView.cs" Line="26" Column="5" />
+      <File FileName="AppleTvSingleViewDemo/MonkeeCollectionViewCell.cs" Line="4" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoDataAccessLayer/ImageDataAccess.cs" line="34" column="1" />
+      <Breakpoint file="/Users/roverton/Documents/Xamarin/AppleTvSingleViewDemo/AppleTVDemo/DemoDataAccessLayer/ImageDataAccess.cs" line="35" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.AppleTvSingleViewDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.835EA1C8-D9A2-49A5-A6DC-6FBCF277146E" />
